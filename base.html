@@ -48,5 +48,75 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+     <div class="containerPhoto">
+        <div class="ramka">
+            <div class="container" id="container-in-ramka">
+                <div class="row">
+                    <div id="result_11" onclick="getJSONP('http://www.RzhuNeMogu.ru/Widzh/WidzhRNM.aspx?type=11',onSuccess)"></div>
+            
+                </div>
+                <div class="row">
+                    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div>
+        <H4>УСЛУГИ НАШЕГО СТО</H4>
+        <div class="separator"></div>
+        <p id="slogan">Наши специалисты вбацают тебе монитор даже в руль</p>
+        <!--HERE MUST BE GRID-->
+    </div>
+    <div class="container">
+        <div class="row icons">
+            <div class="col-sm service-icons"><i class="fa fa-laptop fa-3x"></i></div>
+            <div class="col-sm service-icons"><i class="fa fa-laptop fa-3x"></i></div>
+            <div class="col-sm service-icons"><i class="fa fa-laptop fa-3x"></i></div>
+            <div class="col-sm service-icons"><i class="fa fa-laptop fa-3x"></i></div>
+        </div>
+        <div class="row icon-signature" id="service-name">
+            <h5 class="col-sm">Diagnosis</h5>
+            <h5 class="col-sm">Oil Change</h5>
+            <h5 class="col-sm">Chip Tuning</h5>
+            <h5 class="col-sm">Tire Service</h5>
+        </div>
+        <div class="row icon-text">
+            <p class="col-sm">Потому что мы эти да и всегда ими будем</p>
+            <p class="col-sm">Потому что мы те самые</p>
+            <p class="col-sm">Потому что мы ага</p>
+            <p class="col-sm">Потому что мы хм они</p>
+        </div>
+    </div>
+    <div class="container" id="why-us-container">
+        <div class="row">
+            <div class="col-5" >
+            <h3 id="why-us-left">
+                    Почему нас выбирают
+            </h3>
+        </div>
+            <div class="col-2" id="why-us-delimeter">
+                <div class="container" style="height: 100%">
+                    <div class="row" style="height: 100%">
+                        <div class="col-6" class="divider-cols" id="vert-div-left"></div>
+                        <div class="col-6" class="divider-cols" id="vert-div-right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5">
+                <ul id="why-us-right">
+                    <li>
+                        Делаем <div class="text-impressive">быстро</div> 
+                    </li>
+                    <li>
+                        Делаем <div class="text-impressive">дешево</div> 
+                    </li>
+                    <li>
+                            Делаем <div class="text-impressive">круто</div> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </body>
 </html>
